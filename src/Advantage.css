@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.desktop-advantage-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background: #E5E4E9;
+    padding: 20px;
+    margin: 0 20px;
+}
+
+.desktop-advantage-points-div {
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+.desktop-advantage-heading {
+    font-weight: 600;
+    color: #017F82;
+    margin-bottom: 20px;
+}
+
+.desktop-advantage-image {
+    width: 371px;
+    height: 260px;
+}
+
+/* Mobile View  */
+
+.mobile-advantage-section {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* background: #E5E4E9; */
+    /* padding: 0px; */
+    /* margin: 0 20px; */
+}
+
+.mobile-advantage-points-div {
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+.mobile-advantage-heading {
+    font-weight: 700;
+    color: #E8625D;
+}
+
+.mobile-advantage-image {
+    height: 305px;
+    width: 157px;
+    margin-left: 10px;
+}
+
+/* Media Query To Activate As Per Screen Size */
+
+@media only screen and (max-width: 1100px) {
+    .desktop-advantage-section {
+        display: none;
+    }
+
+    .mobile-advantage-section {
+        display: flex;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .mobile-advantage-points {
+        font-size: 12px;
+    }
+
+    .mobile-advantage-heading {
+       font-size: 15px;
+    }
+}

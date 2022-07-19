@@ -1,0 +1,3 @@
+const OtherServiceArray = [{sn: 'Professional Deep Cleaning', e: 'For spring  clean for  end of  lease clean'}, {sn: 'Professional Deep Cleaning', e: 'For spring  clean for  end of  lease clean'}, {sn: 'Professional Deep Cleaning', e: 'For spring  clean for  end of  lease clean'}, {sn: 'Professional Deep Cleaning', e: 'For spring  clean for  end of  lease clean'}];
+
+export default OtherServiceArray;

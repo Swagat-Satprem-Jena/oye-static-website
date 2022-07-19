@@ -1,0 +1,3 @@
+const TrendingServicesArray = [{url: `${process.env.PUBLIC_URL}images/Group 1048.png`, sn: 'Air Conditioner Services'}, {url: `${process.env.PUBLIC_URL}images/Group 1535 no_back.png`, sn: 'AC Installation'}, {url: `${process.env.PUBLIC_URL}images/image 12.png`, sn: 'Sofa Cleaning Service'}, {url: `${process.env.PUBLIC_URL}images/image 13.png`, sn: 'Home Deep Cleaning Service'}];
+
+export default TrendingServicesArray;

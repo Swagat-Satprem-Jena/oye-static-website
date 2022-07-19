@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.feedback-component-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px;
+    width: 240px;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 1px 20px 50px 1px rgba(0, 0, 0, 0.1);
+    margin: 0 20px;
+}
+
+.quote-icon {
+    margin-bottom: 20px;
+    color: #F2C19D;
+    /* width: 100%; */
+}
+
+.feedback-text {
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #000000;
+    /* width: 100%; */
+    width: 200px;
+
+}
+
+.feedback-customer-name{
+    font-size: 15px;
+    color: #025B5D;
+    font-weight: 500;
+    /* width: 100%; */
+    width: 200px;
+
+}

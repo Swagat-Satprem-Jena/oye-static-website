@@ -1,0 +1,3 @@
+const AssurityTraitsArray = [{src: `${process.env.PUBLIC_URL}images/hqw.png`, head: 'High Quality Work', para: 'Only authorized service experts and genuine spare parts and equipments'}, {src: `${process.env.PUBLIC_URL}images/hfw.png`, head: 'Hassle Free', para: 'Sit back and relax. We do all the work'}, {src: `${process.env.PUBLIC_URL}images/tc.png`, head: 'Totally Cashless', para: 'Pay online for Safe & Secure payment. Many benefits and offers available with online payment'}];
+
+export default AssurityTraitsArray;

@@ -1,0 +1,3 @@
+const serviceImageArr = [`${process.env.PUBLIC_URL}images/Group 7063.png`, `${process.env.PUBLIC_URL}images/Group 7064.png`, `${process.env.PUBLIC_URL}images/Group 7065.png`, `${process.env.PUBLIC_URL}images/Group 7066.png`, `${process.env.PUBLIC_URL}images/Group 7073.png`, `${process.env.PUBLIC_URL}images/Group 7072.png`, `${process.env.PUBLIC_URL}images/Group 7069.png`, `${process.env.PUBLIC_URL}images/Group 7068.png`, `${process.env.PUBLIC_URL}images/Group 7074.png`, `${process.env.PUBLIC_URL}images/Group 7071.png`, `${process.env.PUBLIC_URL}images/Group 7070.png`, `${process.env.PUBLIC_URL}images/Group 7067.png`];
+
+export default serviceImageArr;

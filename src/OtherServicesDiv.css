@@ -1,0 +1,50 @@
+.other-service-img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 50px 0;
+}
+
+.other-service-about-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+/* Service Common  */
+
+.other-service-about-div-heading-text {
+    /* font-family: 'Montserrat'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 44px;
+    color: #025B5D;
+}
+
+.other-service-about-div-sub-heading-text {
+    /* font-family: 'Montserrat'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #000000;
+}
+
+@media only screen and (max-width: 1100px) {
+    .other-service-img-div {
+        width: 100%;
+        /* display: flex; */
+        justify-content: start;
+        align-items: center;
+        /* flex-direction: row; */
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+    }
+}

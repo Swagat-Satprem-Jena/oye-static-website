@@ -1,0 +1,3 @@
+const FeedbackArray = [{cmt: 'Speaker/View Details Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla cursus eleifend augue volutpat hendrerit.', name: 'Ritu Kumar'}, {cmt: 'Speaker/View Details Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla cursus eleifend augue volutpat hendrerit.', name: 'Ritu Kumar'}, {cmt: 'Speaker/View Details Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla cursus eleifend augue volutpat hendrerit.', name: 'Ritu Kumar'}, {cmt: 'Speaker/View Details Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla cursus eleifend augue volutpat hendrerit.', name: 'Ritu Kumar'}];
+
+export default FeedbackArray;

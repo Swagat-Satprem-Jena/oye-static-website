@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.refer-section-div {
+    background: #E5E4E9;
+    width: 100%;
+    margin: 0 20px;
+    padding: 0 20px;
+    height: 368.63px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.refer-section-heading-text {
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: #025B5D;
+}
+
+.refer-section-para {
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #025B5D;
+}
+
+.refer-section-mobile-number-div {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 0px 3.62292px 3.62292px 0.905729px rgba(0, 0, 0, 0.25);
+    border-radius: 9.05729px;
+    padding: 5px;
+    background: #fff;
+    margin-bottom: 25px;
+}
+
+.mobile-number-bar {
+    width: 100%;
+    margin-right: 5px;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.mobile-number-bar:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.mobile-number-go-icon-div {
+    background: rgba(242, 193, 157, 0.52);
+    border-radius: 9.05729px;
+    padding: 2px 5px;
+}
+
+.play-store-download-button,
+.app-store-download-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 3px 5px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    margin: 10px 0;
+    margin-right: 20px;
+}
+
+.get-it-on {
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.play-store {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.play-store-download-button-text-allign {
+    /* display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column; */
+    text-align: start;
+    margin-left: 5px;
+}
+
+.refer-section-download-btn-div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.refer-section-image-div {
+    height: 100%;
+    overflow-y: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+
+.refer-section-oye-mobile-image-1 {
+    margin-right: 150px;
+}
+
+.refer-section-oye-mobile-image-2 {
+    position: relative;
+    top: 60px;
+}
+
+/* Media Query To Activate As Per Screen Size */
+
+@media only screen and (max-width: 1100px) {
+    .refer-section-div{
+        display: none;
+    }
+}
